@@ -1,0 +1,1026 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/static/assets2/css/main.css" />
+		<link rel="stylesheet" href="/static/assets2/css/tt.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#Hotels">Hotels</a></li>
+							<li><a href="#Holy">Holy Places</a></li>
+							<li><a href="#Museums">Museums</a></li>
+							<li><a href="#malls">Shopping-Malls</a></li>
+							<li><a href="#bars">Pubs and Bars</a></li>
+							<li><a href="#chemists">Chemists</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1><strong><font color=#8B008B>{{j}}</font></strong></h1>
+							<p><font color=#9400D3>"The world is a book and those who do not travel read only page."</font></p>
+							<ul class="actions">
+								<li><a href="#Hotels" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Hotels -->
+					<section id="Hotels" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image">
+							{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 1 %}
+												<img src="{{ foto }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}
+							</a>
+							<div class="content">
+								<div class="inner">
+									
+					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
+					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<div class="more-content">
+						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
+						id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
+						id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
+						id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					</div>
+					<p><a class="readmore" href="#">Show more (+)</a>							
+									
+									<ul class="actions">
+										<li><a href="/generic" class="button">View more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 2 %}
+												<img src="{{ foto }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 2 %}
+												<h2><strong> {{ item }} </strong></h2>  <br> <p> {{ i }} </p><br>
+												<p> {{ rn[1] }} </p><br>
+												<p> {{ rn[2] }} </p><br>
+												<p> {{ rn[3] }} </p><br>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									<ul class="actions">
+										<li><a href="/generic" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 3 %}
+												<img src="{{ foto }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 3 %}
+												<h2><strong> {{ item }} </strong></h2>  <br> <p> {{ i }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 4 %}
+												<img src="{{ foto }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 4 %}
+												<h2><strong> {{ item }} </strong></h2>  <br> <p> {{ i }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 5 %}
+												<img src="{{ foto }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 5 %}
+												<h2><strong> {{ item }} </strong></h2>  <br> <p> {{ i }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 6 %}
+												<img src="{{ foto }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 6 %}
+												<h2><strong> {{ item }} </strong></h2>  <br> <p> {{ i }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 7 %}
+												<img src="{{ foto }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 7 %}
+												<h2><strong> {{ item }} </strong></h2>  <br> <p> {{ i }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Holy Places -->
+					<section id="Holy" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 1 %}
+												<img src="{{ foto2 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 1 %}
+												<h2><strong> {{ item2 }} </strong></h2>  <br> <p> {{ i2 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 2 %}
+												<img src="{{ foto2 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 2 %}
+												<h2><strong> {{ item2 }} </strong></h2>  <br> <p> {{ i2 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 3 %}
+												<img src="{{ foto2 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 3 %}
+												<h2><strong> {{ item2 }} </strong></h2>  <br> <p> {{ i2 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 4 %}
+												<img src="{{ foto2 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 4 %}
+												<h2><strong> {{ item2 }} </strong></h2>  <br> <p> {{ i2 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 5 %}
+												<img src="{{ foto2 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 5 %}
+												<h2><strong> {{ item2 }} </strong></h2>  <br> <p> {{ i2 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 6 %}
+												<img src="{{ foto2 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 6 %}
+												<h2><strong> {{ item2 }} </strong></h2>  <br> <p> {{ i2 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 7 %}
+												<img src="{{ foto2 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 7 %}
+												<h2><strong> {{ item2 }} </strong></h2>  <br> <p> {{ i2 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+					
+				<!-- Museums -->
+					<section id="Museums" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 1 %}
+												<img src="{{ foto1 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 1 %}
+												<h2><strong> {{ item1 }} </strong></h2>  <br> <p> {{ i1 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 2 %}
+												<img src="{{ foto1 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 2 %}
+												<h2><strong> {{ item1 }} </strong></h2>  <br> <p> {{ i1 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 3 %}
+												<img src="{{ foto1 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 3 %}
+												<h2><strong> {{ item1 }} </strong></h2>  <br> <p> {{ i1 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 4 %}
+												<img src="{{ foto1 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 4 %}
+												<h2><strong> {{ item1 }} </strong></h2>  <br> <p> {{ i1 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 5 %}
+												<img src="{{ foto1 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 5 %}
+												<h2><strong> {{ item1 }} </strong></h2>  <br> <p> {{ i1 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 6 %}
+												<img src="{{ foto1 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 6 %}
+												<h2><strong> {{ item1 }} </strong></h2>  <br> <p> {{ i1 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 7 %}
+												<img src="{{ foto1 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 7 %}
+												<h2><strong> {{ item1 }} </strong></h2>  <br> <p> {{ i }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Shopping Places -->
+					<section id="malls" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 1 %}
+												<img src="{{ foto3 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 1 %}
+												<h2><strong> {{ item3 }} </strong></h2>  <br> <p> {{ i3 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 2 %}
+												<img src="{{ foto3 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 2 %}
+												<h2><strong> {{ item3 }} </strong></h2>  <br> <p> {{ i3 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 3 %}
+												<img src="{{ foto3 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 3 %}
+												<h2><strong> {{ item3 }} </strong></h2>  <br> <p> {{ i3 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 4 %}
+												<img src="{{ foto3 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 4 %}
+												<h2><strong> {{ item3 }} </strong></h2>  <br> <p> {{ i3 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 5 %}
+												<img src="{{ foto3 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 5 %}
+												<h2><strong> {{ item3 }} </strong></h2>  <br> <p> {{ i3 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 6 %}
+												<img src="{{ foto3 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 6 %}
+												<h2><strong> {{ item3 }} </strong></h2>  <br> <p> {{ i3 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 7 %}
+												<img src="{{ foto3 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 7 %}
+												<h2><strong> {{ item3 }} </strong></h2>  <br> <p> {{ i3 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Pubs and Bars -->
+					<section id="bars" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 1 %}
+												<img src="{{ foto4 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 1 %}
+												<h2><strong> {{ item4 }} </strong></h2>  <br> <p> {{ i4 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 2 %}
+												<img src="{{ foto4 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 2 %}
+												<h2><strong> {{ item4 }} </strong></h2>  <br> <p> {{ i4 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 3 %}
+												<img src="{{ foto4 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 3 %}
+												<h2><strong> {{ item4 }} </strong></h2>  <br> <p> {{ i4 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 4 %}
+												<img src="{{ foto4 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 4 %}
+												<h2><strong> {{ item4 }} </strong></h2>  <br> <p> {{ i4 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 5 %}
+												<img src="{{ foto4 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 5 %}
+												<h2><strong> {{ item4 }} </strong></h2>  <br> <p> {{ i4 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 6 %}
+												<img src="{{ foto4 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 6 %}
+												<h2><strong> {{ item4 }} </strong></h2>  <br> <p> {{ i4 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 7 %}
+												<img src="{{ foto4 }}"alt="" data-position="center center" />
+												{{ break }}
+											
+											{% endif %}
+									{% endfor %}</a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 7 %}
+												<h2><strong> {{ item4 }} </strong></h2>  <br> <p> {{ i4 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				
+				<!-- Chemists -->
+					<section id="chemists" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="https://cdn2.iconfinder.com/data/icons/toolbar-signs/512/first_aid-512.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 1 %}
+												<h2><strong> {{ item5 }} </strong></h2>  <br> <p> {{ i5 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="https://cdn2.iconfinder.com/data/icons/toolbar-signs/512/first_aid-512.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 2 %}
+												<h2><strong> {{ item5 }} </strong></h2>  <br> <p> {{ i5 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="https://cdn2.iconfinder.com/data/icons/toolbar-signs/512/first_aid-512.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 3 %}
+												<h2><strong> {{ item5 }} </strong></h2>  <br> <p> {{ i5 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="https://cdn2.iconfinder.com/data/icons/toolbar-signs/512/first_aid-512.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 4 %}
+												<h2><strong> {{ item5 }} </strong></h2>  <br> <p> {{ i5 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="https://cdn2.iconfinder.com/data/icons/toolbar-signs/512/first_aid-512.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 5 %}
+												<h2><strong> {{ item5 }} </strong></h2>  <br> <p> {{ i5 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="https://cdn2.iconfinder.com/data/icons/toolbar-signs/512/first_aid-512.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 6 %}
+												<h2><strong> {{ item5 }} </strong></h2>  <br> <p> {{ i5 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="https://cdn2.iconfinder.com/data/icons/toolbar-signs/512/first_aid-512.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									{% for item,i,foto,rn,rt,rs,rm,item1,i1,foto1,rn1,rt1,rs1,rm1,item2,i2,foto2,rn2,rt2,rs2,rm2,item3,i3,foto3,rn3,rt3,rs3,rm3,item4,i4,foto4,rn4,rt4,rs4,rm4,item5,i5,foto5,rn5,rt5,rs5,rm5 in data  %}
+								 			{% if loop.index == 7 %}
+												<h2><strong> {{ item5 }} </strong></h2>  <br> <p> {{ i5 }} </p>
+												{{ break }}
+											{% endif %}
+									{% endfor %}
+									
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="/static/assets2/js/jquery.min.js"></script>
+			<script src="/static/assets2/js/jquery.scrollex.min.js"></script>
+			<script src="/static/assets2/js/jquery.scrolly.min.js"></script>
+			<script src="/static/assets2/js/skel.min.js"></script>
+			<script src="/static/assets2/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/static/assets2/js/main.js"></script>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  			<script type='text/javascript' src="/static/assets2/js/tt1.js"></script>
+
+	</body>
+</html>

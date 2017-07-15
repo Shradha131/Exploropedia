@@ -1,0 +1,5 @@
+body {baclground-color:#fff}
+a {color:#FC6621; text-decoration:inherit;}
+article {width:50%; padding:2em; margin: 0 auto 0 auto;font-family:Helvetica;}
+.more-content {display:none;}
+.visible {display:block;}

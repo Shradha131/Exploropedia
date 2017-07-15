@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Exploropedia</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/static/assets2/css/main.css" />
+		<link rel="stylesheet" href="/static/assets2/css/tt.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#Hotels">Hotels</a></li>
+							<li><a href="#place">Places To Visit</a></li>
+							{% if data2|length > 0 %}
+								<li><a href="#thing">Things to do</a></li>
+							{% endif %}
+							<li><a href="{{ url_for('backk') }}" >Back To Home</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1><strong><font color=#8B008B>{{j}}</font></strong></h1>
+							<p><font color=#9400D3>"The world is a book and those who do not travel read only page."</font></p>
+							<ul class="actions">
+								<li><a href="#Hotels" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+				<section id="Hotels" class="wrapper style2 spotlights">
+				{% for name,addr,rvw,rate,rofl in data  %}
+					<section>
+						<div class="inner">
+							<h2><strong> {{ name }} </strong></h2><p style="font-size:20px"><b>Address :</b> {{ addr }} </p><p style="font-size:20px"><b>Reviews :</b> {{ rvw }} </p><p style="font-size:20px"><b>Ratings :</b> {{ rate }} </p><a style="font-size:20px" href="{{ rofl }} " target="_blank"><b>Source :</b> {{ rofl }} </a>	
+						</div>
+					</section>
+				{% endfor %}
+				
+		
+				<!-- Paces To Visit -->
+					<section id="place" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Places to Visit in {{j}} </h2>
+							<p>Explore, discover and get inspired</p>
+							<div class="inner">
+								{% for plc,desc in data1  %}
+									  <section>
+											<span class="icon major fa-code"></span>
+											<h3>{{ plc }}</h3>
+											<p style="font-size:20px">{{ desc }}</p>
+										</section>
+								{% endfor %}
+							</div>
+						</div>
+					</section>
+					
+				<!-- Things to do -->
+				{% if data2|length > 0 %}
+					<section id="thing" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Things to do in {{j}} </h2>
+							<p>Explore, discover and get inspired</p>
+							
+							<div class="inner">
+								{% for to in data2  %}
+									  <section>
+											<span class="icon major fa-code"></span>
+											<p style="font-size:20px">{{ to }}</p>
+										</section>
+								{% endfor %}
+							</div>
+						</div>
+					</section>
+				{% endif %}
+
+
+				
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Exploropedia</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="/static/assets2/js/jquery.min.js"></script>
+			<script src="/static/assets2/js/jquery.scrollex.min.js"></script>
+			<script src="/static/assets2/js/jquery.scrolly.min.js"></script>
+			<script src="/static/assets2/js/skel.min.js"></script>
+			<script src="/static/assets2/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/static/assets2/js/main.js"></script>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  			<script type='text/javascript' src="/static/assets2/js/tt1.js"></script>
+
+	</body>
+</html>

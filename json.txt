@@ -1,0 +1,718 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CvQB4QAAANcLPc-bgIAw8n_os0GNKbI_JKF6ap9_tBTyhgd9KHG70R8XaoVsOYhzjBqjY9q_GNhZsla-wXj3mwhoHxG_OJ2jaolI_KtQHSjJYUxAgb0KEpJdv5GeI9MJJyrg81j_MKDZs8bv_7TF6cyWRih0YvarCvRa0UKcRhwvRcmXys9U7f8xoE7kJ_fuRIhzgusP1ggiQIZKHDq-BvL-OkhLkfHXh6V_upmGxsdTAml9DXLNMd-Wfi6q8ztKmwFBeTXYrUJ2tl6OmMAc2uAbhwBSQKvgUujr2qXCKMi793bWB8wXf-z9ALCoN7yWJHGU41ipphIQ34kdDgjHhQW7mFI4G_Z1_xoUBbA14tRppT-XDiQwieT2uNgWD5A",
+   "results" : [
+      {
+         "formatted_address" : "Miramar, Panjim 403001",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.487108,
+               "lng" : 73.80950199999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "297790d4e39d782d6e9c67ef693109dc4b8483eb",
+         "name" : "Goa Marriott Resort & Spa",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 550,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112064511473059750771/photos\"\u003eGoa Marriott Resort &amp; Spa\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAKN-Yw6Bi7ssTPty58MyZ-cN3mRN4TIwN_SAVoWuSBngTfQy7iwOwifgL1cBnOwtoK3eDjGb9HlOnxdhXtVPkH00GTI6SyHIc5XV7p4Se2MNmOvOBrdFWLAeQ2R2KcYTlt763ocduowq_31mVA18bgz7dV5qdxxMCb8RtWkjdS-sEhAEjri3zu3y1qOiYc7DbcqrGhRo_oECzpXSBKs0_pz4K3KLRpZ5BA",
+               "width" : 550
+            }
+         ],
+         "place_id" : "ChIJm2dMYoXAvzsRjIrU3eM38dM",
+         "rating" : 4.3,
+         "reference" : "CmRSAAAAgppN3EwnNi1Pfi19SZ_AuH8XTX7U5jxZUxhPxaBAYIFtX8zpVcx8FJuI6kfKo3j-qmBO5NirAF9Iia7LSuah5_o-tHEBWqcQKfEl6aa8WluRQp8JuwANtcxO-KHL7UBhEhDgdb1ktGzC4b0qom8MLYfCGhTn0a6Diysipd0UNc6PLwS8KsSvrA",
+         "types" : [
+            "spa",
+            "lodging",
+            "health",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ]
+      },
+      {
+         "formatted_address" : "Candolim, Dando, Near Kingfisher Villa, Bardez, Goa 403515, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.5063464,
+               "lng" : 73.7702426
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.50656325,
+                  "lng" : 73.77057214999998
+               },
+               "southwest" : {
+                  "lat" : 15.50569585,
+                  "lng" : 73.77013275000002
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "8c825ec352f4f822d7cb2dc402a776fb12d51088",
+         "name" : "The O Hotel",
+         "photos" : [
+            {
+               "height" : 3888,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100354930837039699760/photos\"\u003eМаксим Васильев\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAF7Lawa8lu6XvhkW8WcrJJtUhZEQ4dNyFax9zan98zznrDjO-IaARSaOyAtYIxCu5HRJAEZZ8m1SWyfjAIht4VkDbxxrgI1WIUPfD55Ya3_PDYzuDh0EXpaHpR1pTH1t2MrovS6OaXfcs0hISDKn6feKh4rPGAZxGbUb_66ug58-EhBlsjk1WWcj_IOrLRfrhV_sGhRf4yOmif-Z-DW4B1cp-gUajl4B6w",
+               "width" : 5184
+            }
+         ],
+         "place_id" : "ChIJexcj9pbBvzsR4lKsbS1AdfM",
+         "rating" : 4.1,
+         "reference" : "CmRSAAAAdQioCSWqVyt7EH5U0DXmFawpEgjbIqjxzwxSOl-m4SwxZ0-YDq-X1SIm1rQtoZ9uKy4T1-xrIKZfqw40HuKuyPd5cvX56dDXyDfYADMtQLo_D0kIhnf3fB8uMeMjKtEQEhDJ9aL0hbJZEsXI9n1hH5bxGhQERqaPJZwT8IhxsB5qupP4SBPFXQ",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "315 A-G1 and 315 B-G2, Bamon Vaddo, Candolim, Goa 403515, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.5113426,
+               "lng" : 73.7741171
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "4f38aae6eb446379f9ed7f345923b9d09115250e",
+         "name" : "Golden Tulip Goa",
+         "photos" : [
+            {
+               "height" : 1352,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112622132162036368307/photos\"\u003eGolden Tulip\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAALmy29KsoEtymZnK372w5gIxmzJbA25yDYNkQixPJ55aIRsVje2Nt8g-0AIyzBKRknZh86qduIo-Yv8xfk_gqdJxfP0QPuJdT7q5gXEM2P0enBN6iGJfpiY9J8UzpCWNDUTzOfVSBNkVjkc6UvKQvqTYY3lOO4fZn73oalGOEdQFEhDBCImAxJnHN69gTvBPwCRFGhQGM2Wt7RpsbacSGvWpL1Gq4N5-8Q",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJS9CA0KLBvzsRoNYyGKS9vaM",
+         "rating" : 4.2,
+         "reference" : "CmRSAAAAjDnQ53KAg1ysuT2ekK0wQGy4YNfYCw6mqYgTW8zE34uEsAmx9GOZEOiMpfHYgfNKjTxJMePeP0Kn4ORiWrEXc2AjchHdLz93-rOVbqvrZZgs68zgtsPPEZzabdRcbNGrEhBo2yJvLdb3Mf29vfFZg2Y-GhSzyJcf9aQiTg38la7GT3Pp5sWwXw",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Off D. B. Bandodkar Road, Panjim, Goa 403001, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.4938735,
+               "lng" : 73.8204861
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.4940347,
+                  "lng" : 73.8207062
+               },
+               "southwest" : {
+                  "lat" : 15.4933899,
+                  "lng" : 73.81982579999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "9a1a7218cc1bedd149837a1460d4b330bb564539",
+         "name" : "Vivanta by Taj",
+         "photos" : [
+            {
+               "height" : 484,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113978606624414436146/photos\"\u003eVivanta by Taj\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAClFNYU8gi8zHyBzg_9SqkqRo9Es_vcDgrhPX51lIajMsBRg4x5k-fj1Fm81vzBnB5olhBbIosdbWH61PGkXbeL1JkT1KrAzVaY18ZF7nxyhSIShkU6ZydhspQ-dUSdiPpd5XPSIvESi_ut59q2jD1gNewMSLjISsl6TXqbBiHeGEhByoZf1HkzA5HmVN8xp7PfFGhSCbAQ5y_psDvUwShxvWBgYn6FL2g",
+               "width" : 483
+            }
+         ],
+         "place_id" : "ChIJlaCiV8TAvzsRVZO2_uOlzyA",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAArYiqUQMeRY90Hc2EcxFqBSH4_yNHd-EXYmbdhEB9u4AZrezDnOap469seZnDIS2uWDlm1G9YysR9f6Rr-Nxd-VY_Mih13j-Vz4r0RBvGowKFQ84zELopNkVNhAljMwxsEhDomg-nd2KWTeWEUD1Vdu08GhT0x1JzRM0D-i2k5nR36Kf2btnlbw",
+         "types" : [ "cafe", "lodging", "food", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Anna Waddo, Main Candolim Road, Bardez, GOA, 403515, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.526586,
+               "lng" : 73.7659879
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.52670645,
+                  "lng" : 73.76618284999999
+               },
+               "southwest" : {
+                  "lat" : 15.52654585,
+                  "lng" : 73.76540305
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "c49385019be008d05c1aaaf0a507bc588d1d7ecb",
+         "name" : "Novotel Goa Shrem Hotel",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114136524993962354729/photos\"\u003eRajiv Kothari\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMV8uZu3UPPQ3FS2HKZbFNfpAtB44h6gZLelIzagmpQdVz7gjyWpzUegnlCeWkOkqCwg9RpfhPtBqrgsDLmYknIvN0k5o2nIPsiHpyCXJbdXEZu4MoyrTPW1-Gy1c1rsKTuUdmisobAMWBWKRDtqLatvcmQCOA11Y5BePISIsMhWEhC1P2xWmBEkBFfUKW6PsQt-GhQa4Xp7_XyGn01I_nzRcFhYYGcc9Q",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJb8F1hOvBvzsRfzInrarhE_g",
+         "rating" : 4.6,
+         "reference" : "CmRSAAAA9lAPdziygLSEAe0VYsDo20A0N1gcVIbeT7P15FG-9V6tBT3ywCLMDPYtgAihCWvkRo6u_VrkdiaqAnn73jtASMzoci2-6xGk5kWTnrlMgPqV9ZrJ1Ft_A8yhH84xFtecEhBbmWlzIT-elZ2x9MNj1AyXGhT5M9ir6LElBCmbr5oGG9juywl6gg",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "370/14, Near KFC, Porba Vaddo, Calangute, Bardez, Goa 403516, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.5460607,
+               "lng" : 73.76661880000002
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.54638755,
+                  "lng" : 73.76663190000001
+               },
+               "southwest" : {
+                  "lat" : 15.54595175,
+                  "lng" : 73.76657949999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "5d164873d2a5ed3e50d10121585af75d4ef587de",
+         "name" : "Hard Rock Hotel Goa",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112942154137762519782/photos\"\u003eCheryl Fogg\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAM-wqxnPKNEdpg6KW1NFY7F-jCY0Hl4g2c5iVLHlEuQpEhCwobAAVG06hGhx_vLLPdTXz-JSqyqcGTkHleK3vAFlBvQ1NTcJs1vwftv6dTEP0mCPy0pmpT7yXz1upXrPMqzzkB21qZLcTXPk3h8-DIiJnt4FsGXB4xYf1io3Q5gqEhCbBHZLdlkzrm6V-RH0wtcBGhS9YCE6rXKeTsXFPAisQu40rY5hzw",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJk_XHdArqvzsR8eJMjIt5S24",
+         "rating" : 4.2,
+         "reference" : "CmRRAAAAfUkv7XpbDZv7bdrSR1_E3Qmrx-2fpRFy3ESk0LIknylVF3no81shdvrjo_hhNy3Z2D3SGhCOLf013ZCC5jhh6FhIM0WWJuWUdlXOWiFXFnL6yLULLTqG0kb15oyvDRl7EhA5KLONA6KmFbi7V0OEKzqgGhTUYTJajFj4mcNetbVvPsvoZh2csg",
+         "types" : [
+            "bar",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ]
+      },
+      {
+         "formatted_address" : "Arossim Beach, Cansaulim, Goa 403712, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.327753,
+               "lng" : 73.8989222
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "6383f01a30b23dc9ac088da8f0f8fdf81ee13d7e",
+         "name" : "Park Hyatt Goa Resort and Spa",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109510267793535049894/photos\"\u003eRosa Peerzada\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAFxbkYSq7ooYIxRu1EesV_Se-DNs-E4YZFf8pzsxCsBfx_BzlNlZtJhD0AtJ5Q5ysavBQM5zr-uyh9_JxvdDLb79KdJK8NpYzdmR-RY_jfGcZiZHt-pJ8UzKNN4Ep2vsAfyBOvQWkgDEDr98OAMXtD9zntvpqQAcNeAtgocIAb6uEhBQM08L1InFiwokLimPN25uGhR67MQ5WlXhOOCJgAN-bH-iENshWg",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJSVDfg_22vzsR1ykJA25x9O8",
+         "rating" : 4.4,
+         "reference" : "CmRSAAAAe5f1C9utxIls7_PTCvKxqVS9fXaInGjcBlks858G8bvBSr34J1R4seTMBquJYJNsWveO2D09FkaoWG2Lmebi0uTE2IZctvn9s8Xu6aXHCFIWZkdAWe_YczRMHUSHqn85EhCwEviDbPepRZEV-Dy4ctHIGhTmdNlC0Pv4C9K2BAXiPx_-nZasfA",
+         "types" : [ "lodging", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Pinto Waddo, Off Candolim Road, Bardez, Candolim, Goa 403515, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.5202216,
+               "lng" : 73.76963069999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "30e79f825cb479854e79304404af7d0efebd1ab7",
+         "name" : "Novotel Goa Resort and Spa",
+         "photos" : [
+            {
+               "height" : 768,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108398724390305567441/photos\"\u003eNovotel Goa Resort and Spa\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAPV0M2O3I2Mxn_ub0AnHbSKT5AJi2AqqgoMCH-z2h23fBZwwgTppDvSvTKRt7KPP91Y4dr0WkyhX4uiNBZQU8UHTNKhf_g0PaEkZcIRs8T4j8qUVNW-rCkPcmF2IcU3yLQBznLyx7528IHTZ97TQ8D0mtH_EAWCZXJtzykIvNDUgEhA5eDYrScHq8F7QdekMMDIjGhSohVMixbeUGdLIWRtRTkKqMCWp8A",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJW_-YC5XBvzsRDlqw4unuq9Y",
+         "rating" : 4.6,
+         "reference" : "CmRSAAAAnI6YPRagNBtnJvVONJDBUCF5AmJX6obySPMEYs4jLZj14PR2SCJ7kynrhoMqJXAr5A3Si-OZYNXAWJZHk3BgNprIOxqmXph34vmmbkReHjy0WAYedzGzJWGLWDvNE2EsEhCti0vPlCkhOm8vbeSUyulVGhTUKijPDmk3P4Rm7JBwas2O7seAWg",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Vadi, Bardez, Goa, Candolim, Goa 403515, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.514714,
+               "lng" : 73.768226
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.5150465,
+                  "lng" : 73.76861735000001
+               },
+               "southwest" : {
+                  "lat" : 15.5137165,
+                  "lng" : 73.76809555
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "d90ad99e6000739ef00723e489724efe80b1a700",
+         "name" : "Lemon Tree Amarante Beach Resort, Goa",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112874388850476745494/photos\"\u003eVinay Patel\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAN2jA6lMPQp-uHAxfR1HmaMDTU7iWjpwASbFcprKsp230Voq3FrLME3XXu6LnF3HEaI3Nx5ZdA-Qgm0OT6BeF5MTpUmzM7RNMgKAT5UgBbC2lEJXXB2LlYA33LWx5pJRXZRpVZ9DKGzE52as0WoeBes7mLLqNsKHqzhhsoO0Bn4YEhCorLmJGfw3A37K3zooaZStGhSs4MOtpfgrcbW45lEZj_MWz2MIZA",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJ61GRHZfBvzsRdVDgcVMBmCE",
+         "rating" : 4.1,
+         "reference" : "CmRRAAAAi_T1ut9aZWt2o9J4TU1mx39Ik82AbR12DPji_AJ-da95kJibfEE2cHse6BY3qhxOXVe7tPmhi9DxwH8QOYT7yJxch70ERR1mAwTJD08wBCokYoIwbVtool7eUVMqVeKREhBqal8YndYK5n9eU6jF1uzxGhS3jJeGVycdPkHsIXa8vsatdyfgAA",
+         "types" : [ "spa", "lodging", "health", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Colva Beach, Thondwaddo, Betalbatim, Goa 403708, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.2910725,
+               "lng" : 73.9108122
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.2914154,
+                  "lng" : 73.91168145
+               },
+               "southwest" : {
+                  "lat" : 15.2900438,
+                  "lng" : 73.91052245
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "345938a9d0ad1429c6d3391ee936ff483433a270",
+         "name" : "Beleza By The Beach Hotel",
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101376132355980451361/photos\"\u003eSrinath Obla\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAH9w2IFw-1os6Nt2RgWbKT-juPT7oyTDcqoW-ybgnCSZmmn13xOSkviBKN_d4KB-m1aMdWpEotUxfrdwUW6c3Zc2wo_Y7MtymFEJSVQVOeOvrNiT8Y0Ji3-b7xvnlFxF0-XEAnx5Yzu-beAvaTFrTyzbFaivGKERPsRUinJEP6HsEhBukddaVHer2hTlIfeF8z27GhSGMOty5hEQzNipK414HDmvv183iA",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJxx0huJi2vzsRCCzSzaoBTR4",
+         "rating" : 4.1,
+         "reference" : "CmRRAAAAkRm3Dt93gTs4f06zKLbSO5mt2mClrOqmXUj5ugD91QyYc7MuKyg2PoaEu_car2KZUd9OYzNpPAC6dqEiHYxCLquYAr2d7Qcg9kzia3XOKNtf3Zj7iJHpoELEFE2vnGP2EhCvAMcvojjozgFXbyLlE93WGhS42YgrozI1tTZLPt9zsh80VBUkCA",
+         "types" : [ "lodging", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Plot No. 37 & 38, SGO Complex, Near Passport Office EDC, Pato, Panjim, Goa 403001, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.494905,
+               "lng" : 73.834176
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.49527519999999,
+                  "lng" : 73.83424105
+               },
+               "southwest" : {
+                  "lat" : 15.4947816,
+                  "lng" : 73.83398084999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "615d7a690e01b4bf06816a1f7025f2d732bd242e",
+         "name" : "Ginger Hotel",
+         "photos" : [
+            {
+               "height" : 2392,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115964791251527262786/photos\"\u003eAnup Narvekar\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAABa0n0WV40RKQTHTO80IzZMc5B8nIZla63PkeqUR8vBR2wedl1rKWNZM1GLaz4dWXOlF6Ef4kxHzwwnonkD3MwdTnXUyttFtu8Sc9oygaAInQslGh82Unqz9Iy3sfkvIvXNIu6ZO7Sok-9HumXJ5hqXWO3IiMcZHgET4gvsumin0EhAF3ZrZkgspvTQ-y9zJN5mfGhQlWgU_PrLkYjM6ym_5YVVpbDh-fg",
+               "width" : 3190
+            }
+         ],
+         "place_id" : "ChIJ-8MSxoTAvzsRtD2GWO5AU5E",
+         "rating" : 3.5,
+         "reference" : "CmRSAAAAff5O3HdnI4xCv9-Mi8wD1YX7MJoq6-rNQ6o3XAP-Z_A38YKjyOptz9pzg0C25gYf9RT1CbheKDPgWsKoHXOeaRgADO5piRrCqgdrpSSTSU1ScDdkG2hdKk5utXUkjl-JEhD5WApQJbbBXeG6fM9S-S4aGhRBqSyTLjOWTcLXRloI3-y9cbpWPQ",
+         "types" : [ "lodging", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Sinquerim, Candolim, Bardez, Goa 403515, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.4974484,
+               "lng" : 73.7669604
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.49753325,
+                  "lng" : 73.76734739999998
+               },
+               "southwest" : {
+                  "lat" : 15.49719385,
+                  "lng" : 73.7668314
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "a381e555b87eab94da54fb453f0eb441a7187ca2",
+         "name" : "Vivanta By Taj",
+         "photos" : [
+            {
+               "height" : 1268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110033256346982753256/photos\"\u003eVivanta By Taj\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAOGJg_1aEwA_whW87bjjWsdvymkgPvSRwrCcTjnIppqL8zwZM3kA8U7Ggx8E4qCvK8Ln-dYaz9zB1hIeE-o6ja4yhrqvUTygzyDU22tm1fZspP_A6N-04p_0ub-BzUDfi0Cj8pWcZmady9l27Mvi8lDNvZrw6zX2R6EDP36fDhiFEhCLW6DPiKvlmErqPDHwWJeXGhS6hrosjmIsKaZVRJEiX-mqxtJ9_w",
+               "width" : 1269
+            }
+         ],
+         "place_id" : "ChIJPQnGcnXBvzsR73NIGgtOscI",
+         "rating" : 4.4,
+         "reference" : "CmRSAAAA8hO-fgYq43VbKokm-5cHBc2dBH-e4xYmH6GFwiIG8TAQnGkit4jZu5GUDK-p6FMEiPcoSjKAuaHf3PbzA1ODRLh2Bpipo2UDkbPN-bcPhRdHXQkdgAAYV_MvySyVY5L8EhCyiikHoID118qd6ZFlI5YYGhT4OT0Y1WyeRKoSHj2rEjS5LLoHpA",
+         "types" : [ "lodging", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Ximer, Arpora, Goa 403518, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.575428,
+               "lng" : 73.761675
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.57707455,
+                  "lng" : 73.76171565
+               },
+               "southwest" : {
+                  "lat" : 15.57487915,
+                  "lng" : 73.76155304999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "f953130f358e880bc97881b867e8dc549d4e365d",
+         "name" : "DoubleTree by Hilton Hotel Goa - Arpora - Baga",
+         "photos" : [
+            {
+               "height" : 1361,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108793943051646739855/photos\"\u003eDoubleTree by Hilton Hotel Goa - Arpora - Baga\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAKtumI_k_2FGqR1njAlZnJMn2SPM_20dpS-U5idPzLNg3pUrlzNI8UpL39h5Fo2u4sEVIEMAbkKLBtL7q80sgF4rl5H81lPNfbmTK52LUBLSFaG8yeQf2S0DVzUbgtKc1i2g-93NNMy692Xl0vhuoMiO2RM__5jpiR9Q9hRkWIjSEhAL-LlJjMhsyF5TjpX0vXH9GhRNE-feD6pFYoMqhxXOV-cs6cH7qg",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJSar0dZK-vzsRdujl15fvEEg",
+         "rating" : 4.1,
+         "reference" : "CmRRAAAA__USiWEVuYzVjBZAv_LIbbsUE_xNqULooTB-PHATragE55TG1_7-GglY8fB-ISUpjH-VSRoOJIvKXIaRsHwSD6Avt5ritHeL1eWCBwWh9FBEldOtfV04x5ZlseJqll3mEhDofiBdtRuhs1Jm8HVsmGAwGhTsCzZLdKDE3o20lPWnP3HMavKvtQ",
+         "types" : [ "lodging", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Calwaddo, Salcete, Benaulim, Goa 403716, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.244439,
+               "lng" : 73.9247726
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.2453159,
+                  "lng" : 73.9290092
+               },
+               "southwest" : {
+                  "lat" : 15.2441467,
+                  "lng" : 73.92336040000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "20bc5e4ca72863ac30e9a730a04bf9786cbb298b",
+         "name" : "Taj Exotica",
+         "photos" : [
+            {
+               "height" : 2574,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101609317038833555694/photos\"\u003eTaj Exotica\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAL5NxFoS9E705dxWcBdeahv75eRXEafRCrZ6N0Sx_Zw7dqcHLUz82ej7K1e3kjXNwRONtTCbZvy1Sj5aHOEbx_h42jlD9K9L4hpu1awzyedO2WeTK-S3y1AVAFw2s9jdVc1Fnnp3K9ZPSBbNAsquHNPy1lk11BMUVu7QU3iQxfksEhBS7u-63C8q83i79_hcx87JGhRzTY3ick1w3w0DiJUTJL9Lyn8aQQ",
+               "width" : 2574
+            }
+         ],
+         "place_id" : "ChIJiVbna6ywvzsRaASo1KU8pzE",
+         "rating" : 4.6,
+         "reference" : "CmRRAAAAi2kP25iZpys0zY8bq6u9H1J1dbWDF6dH9_ZvGkmTITHXE2UYZbjESWQVMGCxJK9qKsOnfbVOGG4Y4MU7mOftssJ5aE__pAybJXHlscmh4d_XI7YuW4uCENwDPc2TkQFQEhAI3I4rypL0kL3c4667CxWkGhQxMG-8knLMYJbiKnK5Ss7JXuI_kA",
+         "types" : [ "lodging", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Sinquerim, Candolim, Goa 403515, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.499686,
+               "lng" : 73.769108
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.49970805,
+                  "lng" : 73.77055009999999
+               },
+               "southwest" : {
+                  "lat" : 15.49961985,
+                  "lng" : 73.76862730000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "aadd97fe5807e71f63bcfd7d34badb8cd7710c9c",
+         "name" : "Vivanta By Taj Holiday Village",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2322,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107431758486292509513/photos\"\u003enagarjuna nag\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAABoznUCSMxGKe5fkFT0RjxAlk-PYCZxJT26B8cdTbOnZId1_6qoGH4WxHhvoCN9sUj-sRKjhO6lkiT1cfNTfMv1OSx80Geueq1-p6bz8tJpUu8ri5qA5LbMeb_IBgJ5n3jTAo6VCjtSAXI7xpqncXI9Pa6VQ6MaXHZcywhjKKVdTEhCTCrLRkp0aTND4wc9K_qr6GhS9JW_mHryHycsd0QXpBPT7YC3V4Q",
+               "width" : 4128
+            }
+         ],
+         "place_id" : "ChIJPQnGcnXBvzsRjxusN5Ov2f0",
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAwzu2dIsTCxtI42zHBZZz_9m-6DcMm3f6uRpQ__drdeyiJr7FEI9tRAA6TNKbK5vFAyIvEuZK5dWu4MksNHZFfn6Jl9-DojbbZ2Hd_7Z-KfKETeeqPiJxZbZnKfD1R5nQEhDEIBWFxTWd40oxtQEJg_dOGhSnqRcecWQnNEuTfeb-GM4IuDCzzA",
+         "types" : [ "lodging", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Arossim Beach Road, Cansaulim, Arossim, Goa 403712, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.335682,
+               "lng" : 73.89686999999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "ebee97aa3f41e95391aeb674ba5d1e494d0ae3d0",
+         "name" : "Heritage Village Club Goa",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 4000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112418990411237954758/photos\"\u003eGaurav Madhavi\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAO8G35WNsZSwC-loqCx_RXXV1gkZ0eRiGgzWCaJa3uF1oL5RtLvpsyLpnfLyEqFhwtrBqiCZELunxokGVGK9RcH_Go-gPBx-FYvCCQfFEdlApECsjPJMRChQF4ejNsJtsskdccq5piJ34RaUmVIyKXNWwApNMUCbaUWZVwbzgBeVEhBbHh3YER4A90pGrartLVT9GhSCr52xv7i-FJ55O7ASLDNIx0A5JQ",
+               "width" : 6016
+            }
+         ],
+         "place_id" : "ChIJr6OkSAS3vzsRy5NPdGQpSgw",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAA3Ea8GlDuNfQ3W3Con1rbgoHZf_-YB1O2ZXwBOUKFlhNwXfSowV8LqnNlyhMHfA3GBz8q3D32vnCksnNtsHBPFAP6PGXaQkT07oeXwlY7PBjtZZp7cXLQkYoNwXAhZex5EhD7m2VhVZLyFo35_V744jO9GhTIpz6JEC1bNLJJYQWqLI1ZcxRDKQ",
+         "types" : [ "lodging", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Dr Afonso Road, Calangute Beach, Umtavaddo, Calangute, North Goa, Goa 403516, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.5439263,
+               "lng" : 73.76049309999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "d49f7afdf5a9743e5faad87b59eb5439d98e8133",
+         "name" : "Mira Hotel",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 4128,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106572165773196613359/photos\"\u003eMohamed Ferozkhan\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAN1eq3s_H1Y6jg2r94aD1LIA6BFwMKrqmEzBUNdbOf6mCTTj8FjW1dgRpiNisK8FNCL6IKfRJ7cpGawfb8dd9LelI58Rt5Bio5ZpN_bZwSy1AOHHQl7xvpCZkUPchyxYmY6LcVHNm_bGfBuNVhGD0V4X3CbRBcCufEh4F9tpit3TEhBPikgyrIbjv7VlZ2WOaAaEGhRXbobojvV7aK_6RApRdI_eJuM2FQ",
+               "width" : 3096
+            }
+         ],
+         "place_id" : "ChIJv6ZPU-LBvzsR-ej0xzxXgsc",
+         "rating" : 4,
+         "reference" : "CmRSAAAAsukpQpXUbqx58QIcnNbjhOpB9S5aAn5X-nwrn6tX97jhbsY6SpHe3MF0Od0C9xTfH4VwdZgmOSXLyjxcEMygE5kLKlegS8aT6wBUhMVgpS2v5U6LYwD31lIri9DPoCyrEhArBqfeFEKEK3csPZBElrVkGhRKLCjjhyxJ_Uc4D0-aR-sjJYBa9g",
+         "types" : [ "lodging", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "P.O. Goa University, Bambolim, Goa 403206, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.451154,
+               "lng" : 73.851732
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.45280415,
+                  "lng" : 73.85270129999999
+               },
+               "southwest" : {
+                  "lat" : 15.45060395,
+                  "lng" : 73.85140890000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "d1dc9178e84f5b1192e9d81caa0b22eecdae3123",
+         "name" : "Grand Hyatt Goa",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1152,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105552006694992793058/photos\"\u003eGrand Hyatt Goa\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAEdE9VaAUbmXh26HFk7PQNIG2920tv9ef14-XTpOe4InZ_Ds0ZDvOoPjbZVxeQEQjfxMNzJ-YUk8K2PXK88YfvW32HOJ1jcp3F_BEopRNLj41TIO3w-EV4_GVkHv8PJVHoUupMPXGJV3iLuYJY3IpMlDvYV-WqiQftPdOdUlN9WCEhDSzM2HxFQTCOKgKoPD-t_BGhTMbCj3MWFlHP25LNKkOkKGXDbWUQ",
+               "width" : 1154
+            }
+         ],
+         "place_id" : "ChIJVVVVkam4vzsRmi-UvmKNI7k",
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAU6sfZtuW-dYPXeQLk4FJ3TADsdlopSFqa3JD0dG3AqDq0qEcN7n0_M4HO04Vx4SCtpAiLggBVavXdyo4NiLYjZbMTEK06a-DzkQ0vA8JB6oCbA-blOrxWPkGYZxkGLs4EhC7aeH06vI96POgAMyOPDQGGhSVu3QD_TguXOfVRv8TffEvIs0Lwg",
+         "types" : [ "lodging", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Shop No. P-1-2, Quinta Costa Frias Complex, Dando, Candolim, Bardez, Goa 403515, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.5068104,
+               "lng" : 73.7692467
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.5069073,
+                  "lng" : 73.77081600000001
+               },
+               "southwest" : {
+                  "lat" : 15.5065197,
+                  "lng" : 73.76872359999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "2bd121d3e8f2b6fded7a7da38da1813e1147278e",
+         "name" : "Santana Beach Resort",
+         "photos" : [
+            {
+               "height" : 1371,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113454010825101272892/photos\"\u003eSantana Beach Resort\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAJTTMG6AOERkFpXe3K0fyxODDL-Y-YHIBDFdm8ceIRXfsPmkeJ1pHqAAk7HhCLGMuBVPWq81zM5mSq5tLNfDumaQGFLqnNjT8Ig1BJqJN39KSDCjK3_S4TIvaAwOjB29AzmeBCfB0dgPBChX0P5bPqFxCyvGKW_EslcCmUQ4RHsLEhDXAof54XhUrzlLr2UD3KHbGhRveGVvi7rzNu95v81xUnSagU6TxA",
+               "width" : 1376
+            }
+         ],
+         "place_id" : "ChIJsVmR1ZjBvzsR13yHtFxZKU4",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAZuoHrK5QUv2XxJ1FHxkyIScs7AW5hHifVc3eryyNZFRoUBvMPRGi8eSeBks-5vdOeWGVd72VDsuhlBKxVhSEKy25iUlkWnGxvnfolV7M_RHtZX2m4ATJy138lzH8jrd3EhCj9qYnh8bANUkN91_bEtEUGhSPExTc5i0CbSqxpcXMTkpC-Ogjzw",
+         "types" : [ "lodging", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "30/3, Acsona Waddo, Uttorda Beach, Salcette, Goa 403713, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 15.3168713,
+               "lng" : 73.9019028
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.3178481,
+                  "lng" : 73.90315274999999
+               },
+               "southwest" : {
+                  "lat" : 15.3165457,
+                  "lng" : 73.90148615
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "1e7b023dfd5e3f6a1f7349e86035fa0114d4c6f3",
+         "name" : "Planet Hollywood Beach Resort",
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103052652317721008448/photos\"\u003eUma Kalyani Bhogereddi\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAP0tZ7OkNAN-Y7iKSGt45NHDs0NNsMI0L_xCUj39gxf9dg3RGeHhPJdYoTa4bBNX25XQH2LRfw_Ntxp6FTnkNfOIIETXgP-RxIXPH6wqBOA7GJIhLSPdamqWkXnNxXHSXeXlxFwdjVqi_wbOyaPTxWutwMtsdhH_1wd5opPzwDpMEhDloIJ9hpwKIBnPQT4LCYJjGhRrZYCPOIFACGsQDNbDkeqrOEUm-g",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJM2TIXeW2vzsRwU0Z1YotPzQ",
+         "rating" : 4.5,
+         "reference" : "CmRRAAAAv9fAPf5vRfCXCChwcepY1wOKAfJxGNDkTw4isd9WXMMLJekFJddhL4hlDFQHLgDb4eyruOYgColKwe2St7KDUOfqthMBZeMuu_MQGAG9cOTyim_badHg8iQyNL9VdlAoEhBz2mQwZHNd-eGrGd94OOHKGhQvaupS5iUqC2HMihQx61kT63wBwg",
+         "types" : [ "lodging", "point_of_interest", "establishment" ]
+      }
+   ],
+   "status" : "OK"
+}

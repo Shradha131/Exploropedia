@@ -1,0 +1,242 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "Panjim",
+            "short_name" : "Panjim",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Goa",
+            "short_name" : "Goa",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "India",
+            "short_name" : "IN",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "403001",
+            "short_name" : "403001",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "Miramar, \u003cspan class=\"locality\"\u003ePanjim\u003c/span\u003e, \u003cspan class=\"region\"\u003eGoa\u003c/span\u003e \u003cspan class=\"postal-code\"\u003e403001\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eIndia\u003c/span\u003e",
+      "formatted_address" : "Miramar, Panjim, Goa 403001, India",
+      "formatted_phone_number" : "0832 246 3333",
+      "geometry" : {
+         "location" : {
+            "lat" : 15.487108,
+            "lng" : 73.80950199999999
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+      "id" : "297790d4e39d782d6e9c67ef693109dc4b8483eb",
+      "international_phone_number" : "+91 832 246 3333",
+      "name" : "Goa Marriott Resort & Spa",
+      "opening_hours" : {
+         "exceptional_date" : [],
+         "open_now" : true,
+         "periods" : [
+            {
+               "open" : {
+                  "day" : 0,
+                  "time" : "0000"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "Monday: Open 24 hours",
+            "Tuesday: Open 24 hours",
+            "Wednesday: Open 24 hours",
+            "Thursday: Open 24 hours",
+            "Friday: Open 24 hours",
+            "Saturday: Open 24 hours",
+            "Sunday: Open 24 hours"
+         ]
+      },
+      "photos" : [
+         {
+            "height" : 550,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/112064511473059750771/photos\"\u003eGoa Marriott Resort &amp; Spa\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAADXHyWH65mCCZpJa4J62A5KZ-a4mRIghw4cmqHS4JTDlMYpRHQCTtkgvYknt1V7meQhEVSRl_0u9PKFIaA4UGd9x7zg_FQDIWnm4ij62gCNqjExZIhhPERWcqNG9kzcrBTCDgEpt9V-wO8EFAsNdwN7VsAT7_yS1I_9Q1zDMEpxXEhB6piazwIv_b8hZlAzkmdULGhTlJPcfRrzk86UHe93HqGVhsQVh5g",
+            "width" : 550
+         },
+         {
+            "height" : 3024,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/105125241985261472200/photos\"\u003eDavid Cohen\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAANx3zjNfRhld5nvB5Euz6r0K6oKxoBZhJEd_9X7_XOFcPLEh3hOMIqMEBj146RAAmxR5J2l8pQuLACob_LN45UcCRP1vsbiP5zrzpYQVkT5L4mzuYerA1tTXM3OssmebJE8SoAQlDETJmr8myOQwv6md3ye2GUTlVj90i7iVIZtuEhAwcBtDmiWDD9M97qVTnglQGhR-dGl0M_na2BZfGDtGVjSfAxh8TA",
+            "width" : 4032
+         },
+         {
+            "height" : 2462,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110148420639495224701/photos\"\u003eEva Järdeholm-Fernandes\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAAwKk4xOH0bIzNZY0IHlokvIxv_hygCpFeLYrOr635mrYIjeSd5bl1Ct6NPP2YoidRge162kOKu8HcTMSgBa77PqgKFeb1Ec2Vv7_t0mObYdQ1VACjxjqgm6am1PPjtjqkwEvtDd4jtfd18ERNR4sqDMTWx73CPrN6UyS2Uf7UTTEhD49gWVAdlMoIjC3RtZ8Os6GhQ1MXGXsOm0Kh2WiDAJllg6sQjF8g",
+            "width" : 4547
+         },
+         {
+            "height" : 2610,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/102172507858489967728/photos\"\u003eAnkit Chugh\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAInsEoAB3fjH-WXf1mUzMxQvufBukxq_e7wnDG2neZSFV2bdepc9DcKr0KcP9NN6J69mpn5k2hBaAPVGNPhcpTrQSEjdJ1SJQ-V_ad0W9NmDHxBUVeH5Q1ZiMWfPg2oWWBbBMoEt322JS5Rgrsat3Emd3zMzd1Or2NfzeYWxqRrCEhD2nDNr9O7T6mQw2_BeRJLQGhTrbeusl19KbyDRdpkU0eml0utB0w",
+            "width" : 4640
+         },
+         {
+            "height" : 722,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/106615915229622556066/photos\"\u003eJay Sondagar\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAADkMEg9mH-sQlur_9NeOZC3g4rQ_Kd8PMA-Ftc1T40g81s47yBj3eGC6bLy-LhN7ynnEWaGkRfuS7ytk76gpUU9BoBDQjKWxbrmXFV_gEPlV8zXueSUsZvTO40T5Fra1IpRccL_cBJzNLhT7sGxbRJTaeEbJkig7y43GTp7EvvyeEhDlbs6--rkT_zyk-gNMSC0FGhTSC0OjGbjnyss6H3pOMlVqENcVqg",
+            "width" : 1280
+         },
+         {
+            "height" : 2448,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/115995216695173572891/photos\"\u003eHamuone Rayong\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAEILi1RA--wrk0VWgGiyQi8UAMejn-6QQmKCqjtwoTAy7_ZDmXWUiwO-rdAVgpHD61cpym6qBdL8oIUaZ6BTUT1cwKEP4G_1wNXoRYOHDDK9puTGWxehebb0uh4n_hKEHyro9DBpkni9SM1pBMjEiWKvn0vpD3qvHhdIGwD6mpWWEhAS90VwZco1jg5_NF5zT-WEGhR9WopNNrHgNCcff4g-59ksGQzs4w",
+            "width" : 3264
+         },
+         {
+            "height" : 768,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/102627719956194178933/photos\"\u003eDr Ajit Limaye\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAG3RyHrVm4pZeBxpPbXDW9qW0xnKeMSE4lT1gz5tsfcldbcVQAAjnGb0-KY7gmmxjUVS0_eezTSObyXKbDuF1SDerlsSqP5U-eS8JDgahwjlK5ywBeDMNvKcBbUvMZ_2T_OHwDshjiF9FWQP8cxWTkPFK7q7tOgH8toJqnj7kw0nEhArcS8y9sgirWvEsV8wgn9HGhTE2dHE6FLWQfJQU6yFaRX9qkyxGw",
+            "width" : 1024
+         },
+         {
+            "height" : 720,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/109797205386904510304/photos\"\u003ePnina Shweky\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAENsJFzjWiCKaeY1_Pp8jdun1M03dClGxoC4VPu_aE2-r9nLVYvu8LtFL7m6nv97uXngqjgEj1CSzZ4nwxTODfPv3u6mjRGJiMj_oJDfwghLnM3L6e9uaIFEOhJHK8tEX5BrJVGvAK59GApgVo3kVycUijkNbPx-mUvasqESh4YWEhCg25BeRGR87doGbknzvW8MGhTqnCUKIzxsN98ZdlDbJla20TLcPQ",
+            "width" : 1280
+         },
+         {
+            "height" : 2988,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/114708214351653763867/photos\"\u003eBrian Flanagan\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAN1AB5AkLgoIeGddWWjaFvq5pTZ1QnytLDgMKPhZE3xpqmFDxgQsNi3J_GSnaspQ6WFEp7qtm8I-SGSSezO8ONwy2Vf_FlSI9E7d-bKsRSjHlFOPC-8xOda9uYK8kvy8zLH1nZbQpNwTiI1VGEgbcgzVD6C1wuzBZeT5Gc9pXbHoEhAkC18d9jKVRUZi35TXY8XvGhRcS9-5htNwLeZ9_esRn8MCzq9UIw",
+            "width" : 5312
+         },
+         {
+            "height" : 768,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/113685150136385775611/photos\"\u003eShashidhar Pathikonda\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAPBqT7WMsQikCANnCNXqlfFGxtqPyOMs5BQ2_9hO2tFHJqNTgmOQDzclnxSeph9mLhu1VOcQen8Jd2FEeLPzrtVDxl9pLY0GT737YwQJS3VWqo9OvKGaWUw6fKk_ScoGYA_-ri5IdNSJCb4kul4zI54EtIT20FyZaTc4Sr_2GMjcEhBlkzlrj6RYtQlQKCaCVkCBGhTG6BxRbxJH30k0gFJWUC-IKWBhxw",
+            "width" : 1024
+         }
+      ],
+      "place_id" : "ChIJm2dMYoXAvzsRjIrU3eM38dM",
+      "rating" : 4.3,
+      "reference" : "CmRSAAAAYCwS4HoQzty_4ZaLLsCCi-x1gu1h5GJnxY0zX0Wki3cDXjq1bhKbO2lr3ROnvASsCWjVxdBtdlUC4fsolt3DkXbUZmDt_Rw_cee9_bh3vDe9W8KvKQ2Mp8Bt_mK5YuK-EhCODFAPNXfiyHa302DLRlZdGhRB9GJyVSsdOHXl0TmUOHM2R48D3Q",
+      "reviews" : [
+         {
+            "aspects" : [
+               {
+                  "rating" : 2,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "Zuzana Votrubec",
+            "author_url" : "https://www.google.com/maps/contrib/109089233089151700401/reviews",
+            "language" : "en",
+            "profile_photo_url" : "//lh6.googleusercontent.com/-mVrwB2HzKTk/AAAAAAAAAAI/AAAAAAAAAF0/qErhkE4JAA0/s128/photo.jpg",
+            "rating" : 4,
+            "relative_time_description" : "a month ago",
+            "text" : "Stayed here for three nights over the Holidays and found it to be in a great location to explore North and South Goa and the beaches as day trips. It is well located for restaurants and nightlife as well. We even took the bus into Panjim a few times and that was not a problem at all. The hotel was very accommodating in arranging transportation for us for our excursions in the area, and when one of the days we had a car that was not to the quality expected and driver had an attitude, the hotel staff were quick to address the issue. Had breakfast at the hotel and enjoyed the variety of local cuisine. Chef even made me a banana lassi, even though it was not on the standard buffet! The beach and pool area are pleasant and nice to relax at. It was a bit sad to see the garbage on the beach (not necessarily by the hotel, but on the stretch of beach we walked) and generally felt like no one cared to clean up after themselves. Would be great if the hotel organized beach cleanups or such events where the hotel guests can feel like they are helping with the local environment and perhaps even get the opportunity to interact with the locals some. Overall, good experience.",
+            "time" : 1484766341
+         },
+         {
+            "aspects" : [
+               {
+                  "rating" : 2,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "Chetan Vajapey",
+            "author_url" : "https://www.google.com/maps/contrib/116999020087202351479/reviews",
+            "language" : "en",
+            "profile_photo_url" : "//lh5.googleusercontent.com/-G8YHsagpdKU/AAAAAAAAAAI/AAAAAAAADRk/f6taExTBgWQ/s128/photo.jpg",
+            "rating" : 4,
+            "relative_time_description" : "a month ago",
+            "text" : "Great service all around and great food at the water front restaurant. Cleanliness and overall feel wasn't quite up to the standard at other Marriott resorts that I've been to. Lobby staff were rather cold and seemed disorganized.",
+            "time" : 1482602228
+         },
+         {
+            "aspects" : [
+               {
+                  "rating" : 3,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "sadaf iqbal",
+            "author_url" : "https://www.google.com/maps/contrib/110875856867262871768/reviews",
+            "language" : "en",
+            "rating" : 5,
+            "relative_time_description" : "2 weeks ago",
+            "text" : "View is Beautiful cant ask for more. Staff is very friendly and caring,always smiling. Great experience ",
+            "time" : 1486374739
+         },
+         {
+            "aspects" : [
+               {
+                  "rating" : 3,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "THE INDIAN SHOW",
+            "author_url" : "https://www.google.com/maps/contrib/104984024739441735100/reviews",
+            "language" : "en",
+            "profile_photo_url" : "//lh6.googleusercontent.com/-emdcTv2hLPQ/AAAAAAAAAAI/AAAAAAAAAps/KSbETRynKkk/s128/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "a month ago",
+            "text" : "5 star hotel. The world famous Chian Marriott's.. best accommodation and food available here",
+            "time" : 1484500957
+         },
+         {
+            "aspects" : [
+               {
+                  "rating" : 3,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "Vinayak Surve",
+            "author_url" : "https://www.google.com/maps/contrib/103816421911599998209/reviews",
+            "language" : "en",
+            "profile_photo_url" : "//lh5.googleusercontent.com/-Qj9mraPwNK4/AAAAAAAAAAI/AAAAAAAAQo4/pdpFxmGGt94/s128/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "4 months ago",
+            "text" : "Great place. Having Beach front long swimming pool giving great experience of swimming. The restaurant serves delicious and great variety of food. The rooms and conference hall are good. Feels like you are in real goa.",
+            "time" : 1477236648
+         }
+      ],
+      "scope" : "GOOGLE",
+      "types" : [
+         "spa",
+         "lodging",
+         "health",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "url" : "https://maps.google.com/?cid=15272049263208860300",
+      "utc_offset" : 330,
+      "vicinity" : "Miramar, Panjim",
+      "website" : "http://www.marriott.com/hotels/travel/goimc-goa-marriott-resort-and-spa/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
+   },
+   "status" : "OK"
+}
